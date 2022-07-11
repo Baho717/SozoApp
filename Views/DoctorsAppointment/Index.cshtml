@@ -1,0 +1,72 @@
+@model IEnumerable<SozoApothecary.Models.DoctorsAppointment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5 mt-5">
+            <div class="w-100 row medicationDiv">
+                <div class="col-lg-4 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Doctor's Appointment</h1>
+                        <p>Please add your upcoming doctor's appointments.</p>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a class="btn btn-primary" asp-action="Create">Add Appointment</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 order-1 order-lg-2 hero-img">  
+                    <img src="~/images/DoctorsAppointment.png" width="500 px" class="" alt="DoctorsAppointment"/>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+
+
+
+<div class="mt-5 mb-5" style="background-color:#C4DDF2;" >
+<table class="table mt-5 mb-5 ml-5 mr-5">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HospitalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HospitalName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AppointmentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IDVisit">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IDVisit">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IDVisit">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

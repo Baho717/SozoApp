@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net6.0",
+    "\\Models",
+    "\\Views",
+    "\\Views\\CurrentMedication",
+    "\\Views\\MedicationHistory",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Models\\CurrentMedication.cs",
+  "PreviewInSolutionExplorer": false
+}
