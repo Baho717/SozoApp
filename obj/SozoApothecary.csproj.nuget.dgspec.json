@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vanessa\\documents\\ListWiselyApp\\SozoApothecary\\SozoApothecary.csproj": {}
+    "C:\\Users\\Vanessa\\documents\\SozoApp\\SozoApothecary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vanessa\\documents\\ListWiselyApp\\SozoApothecary\\SozoApothecary.csproj": {
+    "C:\\Users\\Vanessa\\documents\\SozoApp\\SozoApothecary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vanessa\\documents\\ListWiselyApp\\SozoApothecary\\SozoApothecary.csproj",
+        "projectUniqueName": "C:\\Users\\Vanessa\\documents\\SozoApp\\SozoApothecary.csproj",
         "projectName": "SozoApothecary",
-        "projectPath": "C:\\Users\\Vanessa\\documents\\ListWiselyApp\\SozoApothecary\\SozoApothecary.csproj",
+        "projectPath": "C:\\Users\\Vanessa\\documents\\SozoApp\\SozoApothecary.csproj",
         "packagesPath": "C:\\Users\\Vanessa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vanessa\\documents\\ListWiselyApp\\SozoApothecary\\obj\\",
+        "outputPath": "C:\\Users\\Vanessa\\documents\\SozoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

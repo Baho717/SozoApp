@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EjRWT2k9XouEyR+DDRp+g2WzrPt+g5N/QrZKqJ38Tm0nA21TJsl/aunByBTQY6l3JqJde804gu3frO19Oi9vgQ==",
+  "dgSpecHash": "XOcyoedZoaLAiuitGFWchKlllkRWidIEUf3lmmypKcRxnLOD/7oNKJvM4g01GyXjAvXH+dmNe37tTrzu2xe7jQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vanessa\\documents\\ListWiselyApp\\SozoApothecary\\SozoApothecary.csproj",
+  "projectFilePath": "C:\\Users\\Vanessa\\documents\\SozoApp\\SozoApothecary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vanessa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vanessa\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
