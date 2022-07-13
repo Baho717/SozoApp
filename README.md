@@ -12,11 +12,9 @@ This is an application that serves as a one stop for all your medication and doc
 - Code First Database Creation
 
 ## Getting Started
-1. Clone git@github.com:Baho717/Safe-Prescript.git
+1. Clone git@github.com:Baho717/SozoApp.git
 2. Navagate to the source folder
 3. Run 'dotnet run'
-4. Add/ rank plur site videos.
-
 
 ## Features:
 
