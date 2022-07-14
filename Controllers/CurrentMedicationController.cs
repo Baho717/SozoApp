@@ -56,7 +56,7 @@ namespace SozoApothecary.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Dosage,Brand,Form,DrugInteractions,DrugInformation,MedicationAmount,Price")] CurrentMedication currentMedication)
+        public async Task<IActionResult> Create(CurrentMedication currentMedication)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace SozoApothecary.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Dosage,Brand,Form,DrugInteractions,DrugInformation,MedicationAmount,Price")] CurrentMedication currentMedication)
+        public async Task<IActionResult> Edit(int id, CurrentMedication currentMedication)
         {
             if (id != currentMedication.Id)
             {

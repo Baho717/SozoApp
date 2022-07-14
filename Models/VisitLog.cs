@@ -1,3 +1,5 @@
+using System;
+
 namespace SozoApothecary.Models
 {
     public class VisitLog
