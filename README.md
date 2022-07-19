@@ -1,5 +1,15 @@
 # SozoApp
-This is an application that serves as a one stop for all your medication and doctors appointment needs
+This is an application that serves as a one stop for all your medication and doctors appointment needs.
+
+## Code Louisville Requirements
+- **Feature 1:** 
+Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
+
+- **Feature 2:**
+Use a LINQ query to retrieve information from a data structure (such as a list or array) or file
+
+- **Feature 3:** 
+Create an additional class which inherits one or more properties from its parent
 
 ## Technologies
 - **Backend** - C# 10 
