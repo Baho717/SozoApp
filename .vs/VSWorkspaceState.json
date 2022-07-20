@@ -1,8 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models",
-    "\\Views",
     "\\Views\\CurrentMedication",
     "\\Views\\MedicationHistory",
     "\\Views\\Shared"

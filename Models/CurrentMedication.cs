@@ -20,7 +20,6 @@ namespace SozoApothecary.Models
         public string? DrugInteractions { get; set; }
         [Required(ErrorMessage = "Drug information of Medication Required")]
         public string? DrugInformation { get; set; }
-
         [Required(ErrorMessage = "Price of Medication Required")]
         public double Price { get; set; }
     }
