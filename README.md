@@ -4,12 +4,15 @@ This is an application that serves as a one stop for all your medication and doc
 ## Code Louisville Requirements
 - **Feature 1:** 
 Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
+This is accomplished through utalizing SQLite.
 
 - **Feature 2:**
-Use a LINQ query to retrieve information from a data structure (such as a list or array) or file
+Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
+
 
 - **Feature 3:** 
 Create an additional class which inherits one or more properties from its parent
+This is demonstrated in the multiple controler classes that inherit from the model classes.
 
 ## Technologies
 - **Backend** - C# 10 
@@ -28,12 +31,10 @@ Create an additional class which inherits one or more properties from its parent
 
 ## Features:
 
-- [ ] Ability to add medications
-- [ ] Ability to add medication amount
-- [ ] Ability to see medications
-- [ ] Ability to delete medications
-- [ ] Ability to check nearby clinics
-- [ ] Ability to see medication history
+- [ ] Ability to view, add, edit, and delete current medication information.
+- [ ] Ability to view, add, edit, and delete medication history.
+- [ ] Ability to schedule doctors visits.
+- [ ] Ability to take notes at doctors visits for future reference.
 
 ##Todo
 - [ ] Build new c# .NET mvc app
