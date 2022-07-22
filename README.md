@@ -3,8 +3,7 @@ This is an application that serves as a one stop for all your medication and doc
 
 ## Code Louisville Requirements
 - **Feature 1:** 
-Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
-<br>
+Read data from an external file, such as text, JSON, CSV, etc and use that data in your application<br>
 This is accomplished through utalizing SQLite.
 
 - **Feature 2:**
@@ -12,8 +11,7 @@ Calculate and display data based on an external factor (ex: get the current date
 
 
 - **Feature 3:** 
-Create an additional class which inherits one or more properties from its parent
-<br>
+Create an additional class which inherits one or more properties from its parent <br>
 This is demonstrated in the multiple controler classes that inherit from the model classes.
 
 ## Technologies
