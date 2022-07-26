@@ -25,13 +25,13 @@
 </div>
 
     @{
-        double? days = (Model.FirstOrDefault().AppointmentDate - DateTime.Now).TotalDays;
-        string? hospital = Model.FirstOrDefault().HospitalName;
-        string? doctor = Model.FirstOrDefault().DoctorName;
+        double? days = (Model.FirstOrDefault()?.AppointmentDate - DateTime.Now).TotalDays;
+        string? hospital = Model.FirstOrDefault()?.HospitalName;
+        string? doctor = Model.FirstOrDefault()?.DoctorName;
     }
 
 <div class=class="mt-5 mb-5" style="background-color:#C4DDF2;">
-    <p> You have an appointment in @(days) with @(doctor) at @(hospital) . </p>
+    <p> You have an appointment in @(days) days with @(doctor) at @(hospital). </p>
 </div>
 
 
