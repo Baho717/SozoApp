@@ -23,7 +23,7 @@ namespace SozoApothecary.Controllers
         public async Task<IActionResult> Index()
         {
               return _context.DoctorsAppointments != null ? 
-                          View(await _context.DoctorsAppointments.ToListAsync()) :
+                          View(await _context.DoctorsAppointments.OrderBy(x => x.AppointmentDate).ToListAsync()) :
                           Problem("Entity set 'Context.DoctorsAppointments'  is null.");
         }
 
