@@ -35,9 +35,17 @@
         double days = (Model.First().AppointmentDate - DateTime.Now).Days;
         if(0 <= days && days <= 15)
         {
-        string? hospital = Model.FirstOrDefault()?.HospitalName;
-        string? doctor = Model.FirstOrDefault()?.DoctorName;
-        <p> You have an appointment in @(days) days with @(doctor) at @(hospital). </p>
+        var correctedDays = (days + 1);
+            if (correctedDays ==1){
+                string? hospital = Model.FirstOrDefault()?.HospitalName;
+                string? doctor = Model.FirstOrDefault()?.DoctorName;
+                <p> You have an appointment in @(correctedDays) day with @(doctor) at @(hospital). </p>
+            }
+            else{
+                string? hospital = Model.FirstOrDefault()?.HospitalName;
+                string? doctor = Model.FirstOrDefault()?.DoctorName;
+                <p> You have an appointment in @(correctedDays) days with @(doctor) at @(hospital). </p>
+            }
         }
         else{
         <p>You do not have an upcoming appointment.</p>

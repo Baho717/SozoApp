@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SozoApothecary
 build_property.RootNamespace = SozoApothecary
-build_property.ProjectDir = C:\Users\Vanessa\documents\SozoApp\
+build_property.ProjectDir = /Users/benjaminaho/Documents/sozo/SozoApp/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vanessa\documents\SozoApp
+build_property.MSBuildProjectDirectory = /Users/benjaminaho/Documents/sozo/SozoApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/CurrentMedication/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVudE1lZGljYXRpb25cQ3JlYXRlLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/CurrentMedication/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmVudE1lZGljYXRpb24vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/CurrentMedication/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVudE1lZGljYXRpb25cRGVsZXRlLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/CurrentMedication/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmVudE1lZGljYXRpb24vRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/CurrentMedication/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVudE1lZGljYXRpb25cRGV0YWlscy5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/CurrentMedication/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmVudE1lZGljYXRpb24vRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/CurrentMedication/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVudE1lZGljYXRpb25cRWRpdC5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/CurrentMedication/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmVudE1lZGljYXRpb24vRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/CurrentMedication/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVudE1lZGljYXRpb25cSW5kZXguY3NodG1s
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/CurrentMedication/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmVudE1lZGljYXRpb24vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/DoctorsAppointment/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc0FwcG9pbnRtZW50XENyZWF0ZS5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/DoctorsAppointment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRG9jdG9yc0FwcG9pbnRtZW50L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/DoctorsAppointment/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc0FwcG9pbnRtZW50XERlbGV0ZS5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/DoctorsAppointment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRG9jdG9yc0FwcG9pbnRtZW50L0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/DoctorsAppointment/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc0FwcG9pbnRtZW50XERldGFpbHMuY3NodG1s
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/DoctorsAppointment/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRG9jdG9yc0FwcG9pbnRtZW50L0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/DoctorsAppointment/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc0FwcG9pbnRtZW50XEVkaXQuY3NodG1s
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/DoctorsAppointment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRG9jdG9yc0FwcG9pbnRtZW50L0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/DoctorsAppointment/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc0FwcG9pbnRtZW50XEluZGV4LmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/DoctorsAppointment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRG9jdG9yc0FwcG9pbnRtZW50L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/MedicationHistory/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvbkhpc3RvcnlcQ3JlYXRlLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/MedicationHistory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVkaWNhdGlvbkhpc3RvcnkvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/MedicationHistory/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvbkhpc3RvcnlcRGVsZXRlLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/MedicationHistory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVkaWNhdGlvbkhpc3RvcnkvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/MedicationHistory/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvbkhpc3RvcnlcRGV0YWlscy5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/MedicationHistory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVkaWNhdGlvbkhpc3RvcnkvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/MedicationHistory/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvbkhpc3RvcnlcRWRpdC5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/MedicationHistory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVkaWNhdGlvbkhpc3RvcnkvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/MedicationHistory/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhdGlvbkhpc3RvcnlcSW5kZXguY3NodG1s
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/MedicationHistory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVkaWNhdGlvbkhpc3RvcnkvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/VisitLog/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRMb2dcQ3JlYXRlLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/VisitLog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlzaXRMb2cvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/VisitLog/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRMb2dcRGVsZXRlLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/VisitLog/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlzaXRMb2cvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/VisitLog/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRMb2dcRGV0YWlscy5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/VisitLog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlzaXRMb2cvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/VisitLog/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRMb2dcRWRpdC5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/VisitLog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlzaXRMb2cvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/VisitLog/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRMb2dcSW5kZXguY3NodG1s
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/VisitLog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlzaXRMb2cvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vanessa/documents/SozoApp/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-hvb40vll0u
+[/Users/benjaminaho/Documents/sozo/SozoApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-daqom61yma
