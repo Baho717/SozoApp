@@ -33,19 +33,11 @@
     else
     {
         double days = (Model.First().AppointmentDate - DateTime.Now).Days;
-        if(1 <= days && days <= 15)
+        if(0 <= days && days <= 15)
         {
         string? hospital = Model.FirstOrDefault()?.HospitalName;
         string? doctor = Model.FirstOrDefault()?.DoctorName;
         <p> You have an appointment in @(days) days with @(doctor) at @(hospital). </p>
-        }
-        else if(days == 0)
-        {
-        <p>You have an appointment today.</p>
-        }
-        else if(days < 0)
-        {
-        <p>You do not have an upcoming appointment.</p>
         }
         else{
         <p>You do not have an upcoming appointment.</p>
