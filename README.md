@@ -14,6 +14,10 @@ This calculation and display is demonstrated in my DoctorsAppointment View page.
 Create an additional class which inherits one or more properties from its parent <br />
 This is demonstrated in the multiple controller classes that inherit from the model classes.
 
+- **Feature 4:** 
+Use a LINQ query to retrieve information from a data structure (such as a list or array) or file <br/>
+Application controllers use LINQ to request data.
+
 ## Technologies
 - **Backend** - C# 10 
 - **ORM** - EF 6
