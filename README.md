@@ -4,15 +4,15 @@ This is an application that serves as a one stop for all your medication and doc
 ## Code Louisville Requirements
 - **Feature 1:** 
 Read data from an external file, such as text, JSON, CSV, etc and use that data in your application <br />
-This is accomplished through utalizing SQLite.
+This is accomplished through utilizing SQLite.
 
 - **Feature 2:**
 Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event) <br />
-This caluculation is demonstrated in my DoctorsAppointment View page. Here I have a conditional statement that calculates how many days are till the closes appointment. If it is under 15 days, a sentence is added to the notification div.
+This calculation and display is demonstrated in my DoctorsAppointment View page. Here I have a conditional statement that calculates how many days are till the closes appointment entity. If it is under 15 days, a sentence is added to the notification div that contains information on how many days till the appointment, the doctors name, and the location.
 
 - **Feature 3:** 
 Create an additional class which inherits one or more properties from its parent <br />
-This is demonstrated in the multiple controler classes that inherit from the model classes.
+This is demonstrated in the multiple controller classes that inherit from the model classes.
 
 ## Technologies
 - **Backend** - C# 10 
