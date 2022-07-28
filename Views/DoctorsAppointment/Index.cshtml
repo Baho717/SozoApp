@@ -1,6 +1,5 @@
 @model IEnumerable<SozoApothecary.Models.DoctorsAppointment>
 
-
 @{
     ViewData["Title"] = "Index";
 }
@@ -26,19 +25,24 @@
 </div>
 
 
-<div class="mt-5 mb-5 mr-5 ml-5" style="background-color:#C4DDF2;">
-    <h4>Appointments in the next 15 days</h4>
+<div class="p-3 text-right" style="background-color:#C4DDF2;">
+    <h4>Upcoming appointment</h4>
 @{
-    @if(Model.FirstOrDefault() == null)
-    {
+    @if(Model.FirstOrDefault() == null){
         <p>You have no upcoming appointments</p>
     }
     else
-    { 
-        double? days = (Model.First().AppointmentDate - DateTime.Now).TotalDays;
+    {
+        double days = (Model.First().AppointmentDate - DateTime.Now).TotalDays;
+        if(days <= 15)
+        {
         string? hospital = Model.FirstOrDefault()?.HospitalName;
         string? doctor = Model.FirstOrDefault()?.DoctorName;
         <p> You have an appointment in @(days) days with @(doctor) at @(hospital). </p>
+        }
+        else{
+        <p>You have no appointment in the near future.</p>
+        }
     }
 }
 </div>

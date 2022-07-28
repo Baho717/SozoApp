@@ -19,6 +19,24 @@ namespace SozoApothecary.Controllers
             _context = context;
         }
 
+        public ActionResult DoctorsAppointmentNotification(DateTime? AppointmentDate, String HospitalName, String DoctorName)
+        {
+            double? days = (AppointmentDate - DateTime.Now)?.TotalDays;
+            if(AppointmentDate == null){
+                string Message= "You have no upcoming appointments";
+                return View(Message);
+                }
+                else if (days <= 15){ 
+                    string hospital = HospitalName;
+                    string doctor = DoctorName;
+                    String Notification = ($"You have an appointment in {days} days with {doctor} at {hospital}.");
+                    return View(Notification);
+                }
+                else{
+                    return NotFound();   
+                } 
+        }
+
         // GET: DoctorsAppointment
         public async Task<IActionResult> Index()
         {
