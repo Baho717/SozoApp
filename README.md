@@ -18,7 +18,7 @@ This is demonstrated in the multiple controller classes that inherit from the mo
 Use a LINQ query to retrieve information from a data structure (such as a list or array) or file <br/>
 Application controllers use LINQ to request data. They likewise store data in a list by calling ToListAsync().
 
-- **Feature Changed from Proposal:** 
+- **Feature Changed From Initial Proposal:** 
 Make at least one unit test.<br/>
 I believed that adding a day notification was more practical than a unit test. I will revisit this over the break.
 
