@@ -29,19 +29,23 @@
     <h4>Upcoming appointment</h4>
 @{
     @if(Model.FirstOrDefault() == null){
-        <p>You have no upcoming appointments</p>
+        <p>You do not have an upcoming appointment</p>
     }
     else
     {
-        double days = (Model.First().AppointmentDate - DateTime.Now).TotalDays;
-        if(days <= 15)
+        double days = (Model.First().AppointmentDate - DateTime.Now).Days;
+        if(1 <= days && days <= 15)
         {
         string? hospital = Model.FirstOrDefault()?.HospitalName;
         string? doctor = Model.FirstOrDefault()?.DoctorName;
         <p> You have an appointment in @(days) days with @(doctor) at @(hospital). </p>
         }
+        else if(days <= 0)
+        {
+        <p>You do not have an upcoming appointment.</p>
+        }
         else{
-        <p>You have no appointment in the near future.</p>
+        <p>You do not have an upcoming appointment.</p>
         }
     }
 }
