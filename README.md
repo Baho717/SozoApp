@@ -1,10 +1,6 @@
 # SozoApp
 This is an application that serves as a one stop for all your medication and doctors appointment needs.
 
-- **Feature Changed From Initial Proposal:** 
-Make at least one unit test.<br/>
-I believed that adding a day notification was more practical than a unit test. I will revisit this over the break.
-
 ## Technologies
 - **Backend** - C# 10 
 - **ORM** - EF 6
